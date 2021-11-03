@@ -28,7 +28,7 @@ class ViewController: UIViewController {
             initialSpringVelocity: 5,
             options: ringDingDongOption,
             animations: {
-                // 종이 CGFloat.pi * 2 - 0.14 위치에서면 damping 되고 0으로 돌아온다..
+                // 종이 CGFloat.pi * 2 - 0.14 위치에서면 damping 되고 0으로 돌아온다.. 11/4
                 self.bell.transform = CGAffineTransform(rotationAngle: CGFloat.pi * 2 - 0.14)
             },
             completion: {done in
